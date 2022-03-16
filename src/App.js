@@ -22,7 +22,15 @@ useEffect(() => {
   return (
     
     <div>
-      
+      <h3>Shopping list</h3>
+      <input></input>
+      <input type="number"></input>
+      <input type="button" value="Add"></input>
+      <ul>
+        {items?.map(task =>(
+          <li key={items.id}>{task.description}</li>
+        ))}
+      </ul>
     </div>
   );
 }
