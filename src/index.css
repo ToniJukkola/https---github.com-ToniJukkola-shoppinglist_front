@@ -15,3 +15,12 @@ code {
 input {
   margin: 3px;
 }
+
+label {
+  color:lightgrey;
+  margin-right: 60px;
+}
+
+ul {
+  list-style: none;
+}
